@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- TODO: Update your portfolio page title -->
+  <title>Christopher Arellano - Portfolio</title>
+  
+  <!-- Linked Stylesheet (Controls Navbar and Footer) -->
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <style>
+  /*Reset CSS below -- this gets rid of a lot of cross-browser bugs*/
+  /************  DO NOT TOUCH ANY OF THE CSS BELOW ***************/
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+      display: block;
+    }
+    body {
+      line-height: 1;
+    }
+    ol, ul {
+      list-style: none;
+    }
+    blockquote, q {
+      quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+      content: '';
+      content: none;
+    }
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+    </style>
+  
+  <!-- TODO: Change the CSS colors below so that it fits your website theme -->
+  <style type="text/css" media="screen">
+    body {
+      background-color: gray;
+      padding:5px;
+      color:white;
+      font-family: Verdana;
+    }
+
+    .grid {
+      background-color: white;
+      border:1px solid black;
+      display: inline-block;
+      margin:8px;
+      color:black;
+    }
+
+    #carousel {
+      background-color: #ff6600;
+      padding:15px;
+    }
+
+
+    body {
+      font-family: Verdana;
+      background-color:#C2C2C2;
+    }
+
+    .main {
+      display:block;
+      clear: left;
+      min-width: 600px;
+      max-width: 800px;
+      height:100%;
+      margin:0 auto;
+    }
+
+    .main-page{
+      float:right;
+      background-color:#E0E0E0;
+      height:100%;
+      width:75%;
+      box-sizing:border-box;
+    }
+
+    .sidebar {
+      box-sizing:border-box;
+      padding:10px;
+      float:left;
+      width:25%;
+      height:100%;
+      background-color: #059D8E;
+    }
+    
+    .main-title {
+      margin: 10px 15px;
+      font-size: 30px;
+    }
+
+    .left-panel{
+      box-sizing: border-box;
+      width: 50%;
+      float:left;
+      padding:20px;
+    }
+
+    .right-panel{
+      box-sizing: border-box;
+      width: 50%;
+      float:left;
+      padding:20px;
+    }
+
+    .sub-title {
+      text-align: center;
+    }
+
+    .text-info {
+      font-size: 0.8em;
+      margin: 20px;
+    }
+    
+    .nav li {
+      line-height: 40px;
+      padding:20px;
+      list-style: none;
+      display: inline-block;
+      background-color: white;
+    }
+
+    /* Select all child links in a nav element */
+    .nav a {
+      text-decoration: none;
+    }
+
+    .navbar-outside {
+      display:block;
+      background-color: #313732;
+      height:80px;
+    }
+
+    .navbar {
+      display:block;
+      background-color: #313732;
+      height:80px;
+      margin:0 auto;
+      min-width:600px;
+      max-width:800px;
+    }
+
+    .navigation li {
+      padding: 30px 15px;
+      list-style: none;
+      text-decoration: none;
+      float:left;
+      height: 20px;
+    }
+
+    .navigation li a {
+      text-decoration: none;
+      color:#FFFFFF;
+    }
+
+    .navigation li:hover {
+      background-color: #ff6600;
+    }
+    
+    .active {
+        background-color: #4CAF50;
+        color: white;
+    }
+    /* END NAVBAR CSS */
+    
+    /* FOOTER */
+    .footer{
+      min-width:600px;
+      max-width:800px;
+      margin:0 auto;
+      background-color: #313732;
+      height:50px;
+      clear:both;
+    }
+
+
+  </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul class="navigation">
+            <!-- TODO: Ensure that your Navbar is correct -->
+            <li><a href="./index.html">Home</a></li>
+            <li class="active"><a href="">Portfolio</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+        </ul>
+    </div>
+
+  <div class="main">
+    <div id="carousel">
+      <h2>My Work</h2>
+      <!-- The div below shows an Embedded Scratch Project -->
+      <!-- TODO: Update for your Maze Game -->
+      <div class="grid">
+        <iframe allowtransparency="true" width="350" height="300" src="//scratch.mit.edu/projects/embed/86696388/?autostart=false" frameborder="0" allowfullscreen></iframe>
+        <p><a href="https://scratch.mit.edu/projects/86696388/" target="_blank">Maze Game</a></p>
+      </div>
+      
+      <!-- The div below is a screenshot of a document that you can click on to get to the document-->
+      <!-- TODO: Update for your Project: Shooting Star -->
+      <div class="grid">
+        <a href="https://www.khanacademy.org/computer-programming/spin-off-of-project-shooting-star/6174403648159744" target="_blank"><img src="data:image/jpeg;base64,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" alt="Project Shooting Star" width="350"></a>
+        <p><a href="https://www.khanacademy.org/computer-programming/spin-off-of-project-shooting-star/6174403648159744" target="_blank">Project Shooting Star</a></p>
+      </div>
+      
+      <!-- The div below is an example of a linked Google Doc -->
+      <!-- TODO: Update for your Algebra Challenge 2 (The fish tank one) -->
+      <div class="grid">
+        <iframe src="https://docs.google.com/document/d/1ZTqoVsyfyCs3ZU6sGfs6fJ4j9kXUNjJo_tBRSxe1rZs/pub?embedded=true" height=300 width=350></iframe>
+        <p><a href="https://docs.google.com/document/d/1ZTqoVsyfyCs3ZU6sGfs6fJ4j9kXUNjJo_tBRSxe1rZs/pub" target="_blank">Live Website Challenge</a></p>
+      </div>
+      
+      <!-- TODO: Add more div class="grid" elements for your other Khan Academy Projects and Algebra Challenges -->
+    </div>
+  </div>
+  
+  <div class="footer">
+  </div>
+
+
+</body>
+</html>
