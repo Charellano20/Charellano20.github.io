@@ -2,7 +2,7 @@
 <html>
 <head>
   <!-- TODO: Update Title -->
-  <title>Christopher Arellano's Web Page</title>
+  <title>Mr. Yoho's Web Page</title>
   
   <!-- Include the following stylesheet (controls sytle of navbar and footer) -->
   <link rel="stylesheet" type="text/css" href="./css/style.css">
@@ -10,9 +10,8 @@
   <!-- TODO: Change CSS colors and image so that it matches your desired theme -->
   <style>
     body {
-      font-family: Arial;
-      background-color: rgb(0, 94, 255);
-      cursor:url(http://www.rw-designer.com/cursor-view/21327.png),auto;
+      font-family: Verdana;
+      background-color:#C2C2C2;
     }
     
     /* TODO: Make sure the height of your page is big enough */
@@ -25,9 +24,9 @@
     }
 
     .main-page{
-      display: Black;
+      display: block;
       float:right;
-      background-color: rgb(0, 71, 8);
+      background-color:#E0E0E0;
       height:100%;
       width:75%;
       box-sizing:border-box;
@@ -39,12 +38,12 @@
       float:left;
       width:25%;
       height:100%;
-      background-color: rgb(163, 163, 0);
+      background-color: #059D8E;
     }
 
     .sidebar-nav{
       margin: 15px 0px;
-      color: rgb(0, 71, 8);
+      color:#FFFFFF;
     }
 
     .sidebar li {
@@ -58,11 +57,11 @@
 
     .sidebar ul ul li a{
       text-decoration: none;
-      color: rgb(0, 71, 8);
+      color: #FFFFFF;
     }
 
     .sidebar ul ul li a:hover{
-      color: rgb(0, 71, 8);
+      color: #F26101;
     }
 
     .image-container {
@@ -103,75 +102,14 @@
       margin: 20px;
     }
 
-    .main{
-        color: rgb(163, 163, 0);
-    }
-    
-    .nav li {
-      line-height: 40px;
-      padding:20px;
-      list-style: none;
-      display: inline-block;
-      background-color: white;
-    }
-
-    /* Select all child links in a nav element */
-    .nav a {
-      text-decoration: none;
-    }
-
-    .navbar-outside {
-      display:block;
-      background-color: rgb(0, 71, 8);
-      height:80px;
-    }
-
-    .navbar {
-      display:block;
-      background-color: rgb(163, 163, 0) ;
-      height:80px;
-      margin:0 auto;
-      min-width:600px;
-      max-width:800px;
-    }
-
-    .navigation li {
-      padding: 30px 15px;
-      list-style: none;
-      text-decoration: none;
-      float:left;
-      height: 20px;
-    }
-
-    .navigation li a {
-      text-decoration: none;
-      color: rgb(0, 71, 8);
-    }
-
-    .navigation li:hover {
-      background-color: rgb(0, 94, 255);
-    }
-    
-    /* END NAVBAR CSS */
-    
-    /* FOOTER */
-    .footer{
-      min-width:600px;
-      max-width:800px;
-      margin:0 auto;
-      height:50px;
-      clear:both;
-    }
-    
   </style>
 </head>
 <body>
     <div class="navbar">
         <ul class="navigation">
             <!-- TODO: Ensure that your Navbar is correct -->
-            <strong><li class="active"><a href="">Home</a></li></strong>
-            <strong><li><a href="./portfolio.html">Portfolio</a></li></strong>
-            <strong><li><a href="./blog.html">Blog</a></li></strong>
+            <li class="active"><a href="">Home</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
         </ul>
     </div>
 
@@ -190,17 +128,15 @@
             <div class="image-container"></div>
             
             <!-- TODO: Update the page title -->
-            <h1 class="main-title">Christopher Arellano's Homepage</h1>
+            <h1 class="main-title">Mr. Yoho's Homepage</h1>
             <!-- TODO: Update the left-panel and right-panel with info from your 90s website -->
             <div class="left-panel">
-                <h2>Where I'M From</h2>
-        <p id="where im from"><strong> I was born and raised in East San Jose. I have always lived here my entire life so far. I've moved houses twice, but here in San Jose</strong></p>
+                <h2 class="sub-title">My Background</h2>
+                  <p class="text-info">Born and raised in Colorado and Oregon. Majored in computer science, French, and engineering physics at Whitworth University. Studied abroad at Institut National de Sciences Appliques de Lyon in Lyon France and traveled Europe extensively. Lived, taught, and coached teachers in urban and rural Mississippi.
             </div>
-            
             <div class="right-panel">
-                <h2>A little Bit About Me</h2>
-        <p id="about me"><strong>The reason I chose this picture is because it describes me. I am lazy, but also hard working, and this is how I feel when I'm sleepy, sometimes I even sleep with my dog on the couch when my mom is not home. I have a few hobbies. I am a DJ, I like to mix music especially EDM, and I like to do art, like spary, paint, etc. </strong>
-        </p>
+                <h2 class="sub-title">What I Do Now</h2>
+                <p class="text-info">I currently serve as the founding computer science teacher at Alpha Cindy Avitia High School, where I have the joy of working with students from all over East San Jose to discover more about computer science. I also find time to mountain bike, spend time with close friends, and occassionally play some guitar.
             </div>
 
             </div>
